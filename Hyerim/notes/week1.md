@@ -1,6 +1,6 @@
 ## 스프링 입문편 section1~3
 
-# 강의 내용 정리
+## 강의 내용 정리
 
 view 환경설정: 컨트롤러에서 리턴값으로 문자를 반환하면 viewResolver 에서 스프링이 templates/hello.html를 찾아서 타임리프 템플릿 엔진처리->웹브라우저로 반환
 model(data:hello!!)=={데이터에 저장된 값==hello!!}
@@ -24,12 +24,12 @@ viewResolver 대신에 HttpMessageConverter 가 동작.
 기본 객체처리: MappingJackson2HttpMessageConverter
 byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되어 있음
 
-# 컨트롤러역할
+## 컨트롤러역할
 
 클라이언트의 요청(Request)에 대한 응답(Response)를 수행하는 역할을 전담
 내부가 어떻게 돌아가는지는 컨트롤러에게 있어서는 상관이 없고, 어떤 요청이 들어왔는지, 그래서 어떤 결과가 튀어나왔는지만 보여주는 역할을 함
 
-# localhost:8080 의 뜻
+## localhost:8080 의 뜻
 
 현재 본인 컴퓨터의 포트번호
 웹 서버는 클라이언트의 요청을 처리할때 데이터를 어떤 프로그램이 사용할지 구분하기 위한 포트라는 개념을 사용. 데이터흐름을 구분.
